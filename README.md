@@ -1,4 +1,4 @@
-## Reproducing Security Problem
+## Reproducing Authentication Problem
 
 From the root directory (this one) run the following:
 
