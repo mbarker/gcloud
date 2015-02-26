@@ -14,9 +14,9 @@ You should be able to see the modules deployed here:
 http://localhost:8080/_ah/admin/modules
 
 There should be 3 running:
- - default
- - secure
- - unsecure
+ - default (requires any auth)
+ - secure (requires admin)
+ - unsecure (no auth required)
 
 Default should always be on 8080, the other 2 ports are randomly chosen.
 
