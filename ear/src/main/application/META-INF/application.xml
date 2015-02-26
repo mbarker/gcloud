@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+	<display-name>gcloud-ear</display-name>
+	<module>
+		<web>
+			<web-uri>default-${project.version}.war</web-uri>
+			<context-root>/default</context-root>
+		</web>
+	</module>
+	<module>
+		<web>
+			<web-uri>secure-${project.version}.war</web-uri>
+			<context-root>/secure</context-root>
+		</web>
+	</module>
+	<module>
+		<web>
+			<web-uri>unsecure-${project.version}.war</web-uri>
+			<context-root>/unsecure</context-root>
+		</web>
+	</module>
+	<library-directory>lib</library-directory>
+</application>

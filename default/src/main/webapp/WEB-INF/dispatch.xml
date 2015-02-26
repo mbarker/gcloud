@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dispatch-entries>
+	<dispatch>
+		<url>*/default/*</url>
+		<module>default</module>
+	</dispatch>
+	<dispatch>
+		<url>*/secure/*</url>
+		<module>secure</module>
+	</dispatch>
+	<dispatch>
+		<url>*/unsecure/*</url>
+		<module>unsecure</module>
+	</dispatch>
+</dispatch-entries>
